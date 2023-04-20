@@ -4,12 +4,9 @@
 
 The Canto Online Hackathon (COH) is a virtual summit that invites developers, creatives, and communicators to launch the next wave of apps, infrastructure, and original work on Canto. 
 
-
-
 ## **About Canto**
 
 Canto is a permissionless blockchain built with the Cosmos SDK that offers an EVM execution layer and core financial primitives, including a novel decentralized exchange, lending market, and unit of account (NOTE). In support of Canto’s Free Public Infrastructure – a framework that advocates for DeFi primitives to be provided as public utilities, among other tenets –  the COH encourages projects centered on sustainability, authenticity, and creativity. 
-
 
 ## **Bounties & Building Categories**
 Builders will compete for prizes from a 300,000 CANTO rewards pool. The overall winner will be awarded 100,000 CANTO while category winners will receive 40,000 CANTO.
@@ -32,7 +29,6 @@ Prize: 40,000 CANTO
 * **Overall Winner**
 Prize: 100,000 CANTO
 
-
 ## **Judging Criteria**
 
 **20%** – Originality, Creativity, & Innovation.
@@ -51,34 +47,32 @@ Project presents as intuitive and understandable for its targeted user profile.
 **20%** – Sustainability
 A thoughtful plan for launch, maintenance, and/or further development.  
 
-
-
 ## **Judges**
 
 The COH is pleased to announce the following judges for Chapter 1, Season 7:
 
-* [**Birb**](https://twitter.com/Bonecondor)  –  Chief Strategy Officer, [Number Group](https://numbergroup.xyz)
-* [**Ceazor**](https://twitter.com/Ceazor7)– Ser Snack Sandwich, [Velocimeter](https://www.velocimeter.xyz/swap)
-* [**Zak Cole**](https://twitter.com/0xzak)– CTO, [Slingshot Finance](https://slingshot.finance)
-* [**Dr. Laurence E. Day**](https://twitter.com/functi0nZer0)  – CognitoHazard, West Ham Capital
-* [**Dounbug**](https://twitter.com/d0unbug)  – Full Stack Engineer, Web+
+* [**Birb**](https://twitter.com/Bonecondor) –  Chief Strategy Officer, [Number Group](https://numbergroup.xyz)
+* [**Ceazor**](https://twitter.com/Ceazor7) – Ser Snack Sandwich, [Velocimeter](https://www.velocimeter.xyz/swap)
+* [**Zak Cole**](https://twitter.com/0xzak) – CTO, [Slingshot Finance](https://slingshot.finance)
+* [**Dr. Laurence E. Day**](https://twitter.com/functi0nZer0) – CognitoHazard, West Ham Capital
+* [**Dounbug**](https://twitter.com/d0unbug) – Full Stack Engineer, Web+
 * [**Zaki Manian**](https://twitter.com/zmanian) – Cofounder, [Sommelier Finance](https://www.sommelier.finance/)
-* [**Maxine Ryan**](https://twitter.com/MaxieRyan)   – Founder, [Pulsr.ai](https://www.pulsr.ai/)
+* [**Maxine Ryan**](https://twitter.com/MaxieRyan) – Founder, [Pulsr.ai](https://www.pulsr.ai/)
 * [**Smokey the Bera**](https://twitter.com/SmokeyTheBera) – Cofounder, [Berachain](https://berachain.com/)
-* [**Tux**](https://twitter.com/__tux)  – Founder, [Entropy](https://entropy.xyz/)
+* [**Tux**](https://twitter.com/__tux) – Founder, [Entropy](https://entropy.xyz/)
 
 ## **Important Dates**
 
 **4/20** – Registration Ongoing at [**thecoh.build**](https://thecoh.build)
-**4/20** – Begin Building, Communicate in [**the COH chat**](https://t.me/+aXvNO-ZcrWZjYTIx). 
+**4/20** – Begin Building, Communicate in [**the COH chat**](https://t.me/+aXvNO-ZcrWZjYTIx).
 **4/25** – The Elevator, 1:30pm ET/530pm UTC, [**Add to Calendar**](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NzVocDRiODcxaGFrZGFqY25idWM1bnU4N28gY18xNmYwYzVlNWQ2MjdmMzVhODQ3MmExMTkyNjZhNzUzYjMxOWYxMmViZmM5YTRhMTYxZWM4N2FkYjJlYWI0NjNkQGc&tmsrc=c_16f0c5e5d627f35a8472a119266a753b319f12ebfc9a4a161ec87adb2eab463d%40group.calendar.google.com)
-The Elevator is a project pitch session: your chance to pitch your idea(s) to fellow builders and Canto mentors. Get direct feedback, learn about potential projects, and grow your team. 
-**4/28** – [**Midpoint Check.**](https://form.jotform.com/231095474088159) Share Project Title, Summary, & Progress Update w COH organizers. 
+The Elevator is a project pitch session: your chance to pitch your idea(s) to fellow builders and Canto mentors. Get direct feedback, learn about potential projects, and grow your team.
+**4/28** – [**Midpoint Check.**](https://form.jotform.com/231095474088159) Share Project Title, Summary, & Progress Update w COH organizers.
 **5/7** – [**Projects Due.** ](https://form.jotform.com/231094957672163) Must submit pre-recorded video and PR to this repo by 11:59pm UTC.
 **5/13** (TBD) – [**Judging Ceremony**](https://youtu.be/AgFSqpUF8DY)
-**5/16** (TBD) – Winners Announced 
+**5/16** (TBD) – Winners Announced
 
-## **Project Requirements** ## 
+## **Project Requirements**
 
 **Teams must submit a PR to this repo before 11:59pm UTC on 5/7.** 
 Building in public is encouraged; however, if builders wish to keep their project private, please contact hackathon organizers to ensure judges' github handles are added to your project. 
@@ -89,7 +83,6 @@ This video will be played during the live judging ceremony and can be a working 
 *Note: Any teams requiring assistance with translation and subtitling of their video can contact the hackathon organizers for accommodations. All languages are welcome.* 
 
 ## **Builder Resources**
-## 
 
 * **The COH Telegram** – Builders are encouraged to discuss projects in [The COH Builders Telegram Channel](https://t.me/+aXvNO-ZcrWZjYTIx) 
 * **Add COH Organizers** to contacts for questions, private mentorship & teammate matching -  Robin ([@robinwhitney](https://t.me/robinwhitney)), Pujimak ([@pujimak_in](https://t.me/pujimak_in)), Jillian ([@jilliancasalini](https://t.me/jilliancasalini)), Thomas ([@tsterbush](https://t.me/tsterbush)), GucciPrayers ([@gucciprayers](https://t.me/gucciprayers)), Nassim ([@snasps](https://t.me/snasps)).
