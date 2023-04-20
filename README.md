@@ -63,14 +63,14 @@ The COH is pleased to announce the following judges for Chapter 1, Season 7:
 
 ## **Important Dates**
 
-**4/20** – Registration Ongoing at [**thecoh.build**](https://thecoh.build)
-**4/20** – Begin Building, Communicate in [**the COH chat**](https://t.me/+aXvNO-ZcrWZjYTIx).
-**4/25** – The Elevator, 1:30pm ET/530pm UTC, [**Add to Calendar**](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NzVocDRiODcxaGFrZGFqY25idWM1bnU4N28gY18xNmYwYzVlNWQ2MjdmMzVhODQ3MmExMTkyNjZhNzUzYjMxOWYxMmViZmM5YTRhMTYxZWM4N2FkYjJlYWI0NjNkQGc&tmsrc=c_16f0c5e5d627f35a8472a119266a753b319f12ebfc9a4a161ec87adb2eab463d%40group.calendar.google.com)
-The Elevator is a project pitch session: your chance to pitch your idea(s) to fellow builders and Canto mentors. Get direct feedback, learn about potential projects, and grow your team.
-**4/28** – [**Midpoint Check.**](https://form.jotform.com/231095474088159) Share Project Title, Summary, & Progress Update w COH organizers.
-**5/7** – [**Projects Due.** ](https://form.jotform.com/231094957672163) Must submit pre-recorded video and PR to this repo by 11:59pm UTC.
-**5/13** (TBD) – [**Judging Ceremony**](https://youtu.be/AgFSqpUF8DY)
-**5/16** (TBD) – Winners Announced
+**4/20** – Registration Ongoing at [**thecoh.build**](https://thecoh.build)  
+**4/20** – Begin Building, Communicate in [**the COH chat**](https://t.me/+aXvNO-ZcrWZjYTIx).  
+**4/25** – The Elevator, 1:30pm ET/530pm UTC, [**Add to Calendar**](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NzVocDRiODcxaGFrZGFqY25idWM1bnU4N28gY18xNmYwYzVlNWQ2MjdmMzVhODQ3MmExMTkyNjZhNzUzYjMxOWYxMmViZmM5YTRhMTYxZWM4N2FkYjJlYWI0NjNkQGc&tmsrc=c_16f0c5e5d627f35a8472a119266a753b319f12ebfc9a4a161ec87adb2eab463d%40group.calendar.google.com)  
+The Elevator is a project pitch session: your chance to pitch your idea(s) to fellow builders and Canto mentors. Get direct feedback, learn about potential projects, and grow your team.  
+**4/28** – [**Midpoint Check.**](https://form.jotform.com/231095474088159) Share Project Title, Summary, & Progress Update w COH organizers.  
+**5/7** – [**Projects Due.** ](https://form.jotform.com/231094957672163) Must submit pre-recorded video and PR to this repo by 11:59pm UTC.  
+**5/13** (TBD) – [**Judging Ceremony**](https://youtu.be/AgFSqpUF8DY)  
+**5/16** (TBD) – Winners Announced  
 
 ## **Project Requirements**
 
