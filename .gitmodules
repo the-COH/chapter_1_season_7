@@ -1,0 +1,3 @@
+[submodule "CanFundMe"]
+	path = CanFundMe
+	url = https://github.com/mugrebot/CanFundMe
