@@ -1,0 +1,15 @@
+LeafTrack is a remote sensing service that uses free satellite images and the Normalized Difference Vegetation Index (NDVI) to monitor vegetation in nature reserves. It provides detailed information about vegetation health, growth, and distribution through our algorithms and machine learning models. This information is stored in a blockchain-based system for secure and decentralized data sharing among stakeholders. LeafTrack acts as an early warning system for changes in the vegetation layer, enabling reserve managers to make well-informed decisions.
+ 
+
+Github repo: https://github.com/F3-Buidlers/Leaf-Track/blob/main/leaftrack-subgraph/leaftrack-subgraph/src/leaftrack.ts
+twitter: https://twitter.com/_LeafTrack
+Website: https://leaf-track.vercel.app/
+demo: https://drive.google.com/file/d/1_W40EUXlVBGZRFNmTL9JVbo3w53uKu3b/view?usp=share_link
+
+
+LeafTrack aims to impact nature reserves by providing reliable and scalable monitoring of vegetation. Specifically, it aims to:
+
+1.Help protect endangered species: Monitoring changes in vegetation health, growth, and distribution can help identify areas that require more attention or intervention. For instance, reserve managers can take action to remove invasive species and prevent them from harming endangered species.
+2.Prevent deforestation: Monitoring changes in the vegetation layer helps identify areas at risk of deforestation. Reserve managers will now be able to take action to prevent illegal logging or land conversion and protect the forest.
+3.Promote sustainable agriculture: Monitoring changes in the vegetation layer helps identify areas suitable for sustainable agriculture. Reserve managers can take action to improve soil quality and prevent further degradation if there is evidence of soil degradation or erosion.
+4.Provide scientific data for research: The project provides reliable and detailed data on vegetation health, growth, and distribution. This data will support scientific research on ecology, climate change, and other environmental topics.
