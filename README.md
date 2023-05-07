@@ -1,95 +1,70 @@
-## Canto Online Hackathon | Chapter 1, Season 7 | April 20 - May 7
+## CanFundMe Submission
 
-[**Apply to Hack**](https://eugnmr538db.typeform.com/to/BCe0ZX8H)  
+ # Links
 
-The Canto Online Hackathon (COH) is a virtual summit that invites developers, creatives, and communicators to launch the next wave of apps, infrastructure, and original work on Canto. 
+ * REPO: [github](https://github.com/mugrebot/CanFundMe)
 
-## **About Canto**
+ * Website: [TestNet App](https://canfundmecanto.vercel.app)
 
-Canto is a permissionless blockchain built with the Cosmos SDK that offers an EVM execution layer and core financial primitives, including a novel decentralized exchange, lending market, and unit of account (NOTE). In support of Canto’s Free Public Infrastructure – a framework that advocates for DeFi primitives to be provided as public utilities, among other tenets –  the COH encourages projects centered on sustainability, authenticity, and creativity. 
 
-## **Bounties & Building Categories**
-Builders will compete for prizes from a 300,000 CANTO rewards pool. The overall winner will be awarded 100,000 CANTO while category winners will receive 40,000 CANTO.
+## 🏗 BUILT ON Scaffold-ETH 2
 
-* **Ecosystem Support** 
-Analytics, tooling, and sites for Canto awareness. 
-Prize: 40,000 CANTO
-* **NFTs**
-Collections that break new ground, and/or include experimental aspects. 
-Prize: 40,000 CANTO
-* **DeFi & Infrastructure** 
-Apps that leverage Canto’s Infrastructure, including its [Free Public Infrastructure](https://docs.canto.io/readme/free-public-infrastructure-fpi) of DeFi Primitives and [Contract Secured Revenue](https://docs.canto.io/evm-development/contract-secured-revenue-csr). 
-Prize: 40,000 CANTO
-* **New Things**
-The most divergent ideas: games, DAOs, all things weird.  
-Prize: 40,000 CANTO
-* **Notable Builds**
-Remarkable projects will be awarded as judges see fit. 
-Prize: 40,000 CANTO
-* **Overall Winner**
-Prize: 100,000 CANTO
+# CanFundMe
+CanFundMe is a decentralized crowdfunding platform built on Ethereum, designed to support projects and ideas with a simple, yet effective, funding mechanism. CanFundMe integrates Gitcoin and IPFS to support user profiles, organic growth, and reduce Sybil attacks. With a focus on user-friendly experience and enhanced security, CanFundMe aims to revolutionize the crowdfunding space.
 
-## **Judging Criteria**
+# Features
+- CanFundMeFactory contract deploys individual CanFundMe campaigns
+- EIPPY and PROFILE verifier contracts utilize EIP712 typed data standards for increased security
+- Gitcoin integration rewards projects with a Gitcoin score higher than 10, reducing platform fees to 0%
+- IPFS integration allows customizable profiles with an IPFS hash pointing to a JSON object containing profile pictures and project descriptions
+- Signatures and typed data attest to project ownership and the validity of information provided
 
-**20%** – Originality, Creativity, & Innovation.
+# Smart Contracts
+- CanFundMeFactory: The factory contract that deploys CanFundMe campaigns
+- EIPPY: A verifier contract using the EIP712 typed data standards
+- PROFILE: A verifier contract using the EIP712 typed data standards for user profiles
+- CanFundMe: The main crowdfunding contract that enables users to create and participate in crowdfunding campaigns
 
-**20%** – Canto-ish-ness. How well projects do one of the following items:
-* In step with Canto culture
-* Leverages or supports Canto Free Public Infrastructure
-* Leverages Contract Secured Revenue.
+# CanFundMe Campaigns
+- Accept CANTO or NOTE 
+- Allow creators to withdraw after their threshold is met.
+- Allow funders to withdraw their contributions in the case that the threshold is not met within the time limit
 
-**20%** – Expertise Required
-A high level of skill or knowledge or competency was demonstrated by the team members
+# Gitcoin Passport flow
+- submit passport
+- check passport score
+- sign the score
+- verify score on canfundmefactory to receive 0% platform fees
+- campaigns starter after verifying must be updated!
+- uses Eippy.sol to verify/recover signatures
 
-**20%** – User Experience
-Project presents as intuitive and understandable for its targeted user profile.
+# IPFS Profile flow
+- Choose a file, write a text description for your profile page
+- Upload it to IPFS using their API
+- Receive/Sign CID
+- Add to profile contravt which verifies that the signer = owner of the can fundme campaign
+- uses Profile.sol to verify/recover signatures
 
-**20%** – Sustainability
-A thoughtful plan for launch, maintenance, and/or further development.  
+⚙️ Deployed using Vercel
+⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, and Typescript.
 
-## **Judges**
+# Notes
+-Front end information can be found in packages/nextjs such as pages/hooks/components/styling
+-Smart contract information such as contract code/abis/deployment info can be found in packages/hardhat
 
-The COH is pleased to announce the following judges for Chapter 1, Season 7:
+## Requirements
 
-* [**Birb**](https://twitter.com/Bonecondor) –  Chief Strategy Officer, [Number Group](https://numbergroup.xyz)
-* [**Ceazor**](https://twitter.com/Ceazor7) – Ser Snack Sandwich, [Velocimeter](https://www.velocimeter.xyz/swap)
-* [**Zak Cole**](https://twitter.com/0xzak) – CTO, [Slingshot Finance](https://slingshot.finance)
-* [**Dr. Laurence E. Day**](https://twitter.com/functi0nZer0) – CognitoHazard, West Ham Capital
-* [**Dounbug**](https://twitter.com/d0unbug) – Full Stack Engineer, Web+
-* [**Zaki Manian**](https://twitter.com/zmanian) – Cofounder, [Sommelier Finance](https://www.sommelier.finance/)
-* [**Maxine Ryan**](https://twitter.com/MaxieRyan) – Founder, [Pulsr.ai](https://www.pulsr.ai/)
-* [**Smokey the Bera**](https://twitter.com/SmokeyTheBera) – Cofounder, [Berachain](https://berachain.com/)
-* [**Tux**](https://twitter.com/__tux) – Founder, [Entropy](https://entropy.xyz/)
+Before you begin, you need to install the following tools:
 
-## **Important Dates**
+- [Node (v18 LTS)](https://nodejs.org/en/download/)
+- Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
+- [Git](https://git-scm.com/downloads)
 
-**4/20** – Registration Ongoing at [**thecoh.build**](https://thecoh.build)  
-**4/20** – Begin Building, Communicate in [**the COH chat**](https://t.me/+aXvNO-ZcrWZjYTIx).  
-**4/25** – The Elevator, 1:30pm ET/530pm UTC, [**Add to Calendar**](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NzVocDRiODcxaGFrZGFqY25idWM1bnU4N28gY18xNmYwYzVlNWQ2MjdmMzVhODQ3MmExMTkyNjZhNzUzYjMxOWYxMmViZmM5YTRhMTYxZWM4N2FkYjJlYWI0NjNkQGc&tmsrc=c_16f0c5e5d627f35a8472a119266a753b319f12ebfc9a4a161ec87adb2eab463d%40group.calendar.google.com)  
-The Elevator is a project pitch session: your chance to pitch your idea(s) to fellow builders and Canto mentors. Get direct feedback, learn about potential projects, and grow your team.  
-**4/28** – [**Midpoint Check.**](https://form.jotform.com/231095474088159) Share Project Title, Summary, & Progress Update w COH organizers.  
-**5/7** – [**Projects Due.** ](https://form.jotform.com/231094957672163) Must submit pre-recorded video and PR to this repo by 11:59pm UTC.  
-**5/13** (TBD) – [**Judging Ceremony**](https://youtu.be/AgFSqpUF8DY)  
-**5/16** (TBD) – Winners Announced  
+## Quickstart
 
-## **Project Requirements**
+To get started with Scaffold-ETH 2, follow the steps below:
 
-**Teams must submit a PR to this repo before 11:59pm UTC on 5/7.** 
-Building in public is encouraged; however, if builders wish to keep their project private, please contact hackathon organizers to ensure judges' github handles are added to your project. 
-
-**Teams must provide a pre-recorded video (max 3 minutes).** 
-This video will be played during the live judging ceremony and can be a working demo and/or a presentation outlining the project (i.e. what was accomplished during the COH, what’s next). For examples of hackathon presentation videos please review the [judging ceremony](https://youtu.be/inbF96BadPA?t=1923) from a previous COH season. For guidelines on recording your video, see [see here.](https://docs.google.com/document/d/1ROIdoGOL9zmSGpq9081uQ3t0HH1WNlObn5HREgoP4Pk/edit?usp=sharing)
-
-*Note: Any teams requiring assistance with translation and subtitling of their video can contact the hackathon organizers for accommodations. All languages are welcome.* 
-
-## **Builder Resources**
-
-* **The COH Telegram** – Builders are encouraged to discuss projects in [The COH Builders Telegram Channel](https://t.me/+aXvNO-ZcrWZjYTIx) 
-* **Add COH Organizers** to contacts for questions, private mentorship & teammate matching -  Robin ([@robinwhitney](https://t.me/robinwhitney)), Pujimak ([@pujimak_in](https://t.me/pujimak_in)), Jillian ([@jilliancasalini](https://t.me/jilliancasalini)), Thomas ([@tsterbush](https://t.me/tsterbush)), GucciPrayers ([@gucciprayers](https://t.me/gucciprayers)), Nassim ([@snasps](https://t.me/snasps)).
-* **Project Ideas** - See [this spreadsheet](https://docs.google.com/spreadsheets/d/1Ecp7ixsFEtIyZw4qzmLYOOT6NHUWqHn0bZHi1eaY6DQ/edit?usp=sharing) for some project ideas.
-* **[Attend the Elevator Project Pitch Session]((https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NzVocDRiODcxaGFrZGFqY25idWM1bnU4N28gY18xNmYwYzVlNWQ2MjdmMzVhODQ3MmExMTkyNjZhNzUzYjMxOWYxMmViZmM5YTRhMTYxZWM4N2FkYjJlYWI0NjNkQGc&tmsrc=c_16f0c5e5d627f35a8472a119266a753b319f12ebfc9a4a161ec87adb2eab463d%40group.calendar.google.com))** (4/25) to pitch your idea, get direct feedback from mentors, and to meet other builders. 
-* **Canto Hackathon Resources (Oracles, Nodes, etc)** – https://github.com/the-COH/resources
-* **Canto EVM Development Documentation** – https://docs.canto.io/evm-development/overview
-* **Canto Testnet Faucet (Discord)** – https://discord.com/channels/993968517906960445/1029450708371656715
-* **Canto Testnet Faucet (Website)** https://www.cantofaucet.com/
-*  **Canto Icons & Logos** – Canto is a headless brand, meaning there is no official brand identity. You're encouraged to change and ideate on any Canto visuals, or utilize some common visuals here: https://github.com/Canto-Network/canto-branding-assets
+- yarn install
+- yarn chain
+- yarn deploy
+- yarn start
